@@ -40,7 +40,7 @@ $(document).ready(function(){
 			  </h1>
 			   <?php
 			   
-				if($session["role_name"] == "administrator" || $session['role_name'] == "staff_member")
+				if($session["role_name"] == "administrator" || $session['role_name'] == "accountant")
 				{ ?>
 			  <ol class="breadcrumb">
 				<a href="<?php echo $this->Gym->createurl("GymMember","addMember");?>" class="btn btn-flat btn-custom"><i class="fa fa-plus"></i> <?php echo __("Add Member");?></a>
